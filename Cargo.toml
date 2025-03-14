@@ -1,0 +1,9 @@
+[package]
+name = "libflow"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+dotenvy = "0.15.7"
+sea-orm = "1.1.7"
+actix-web = "4"
