@@ -23,3 +23,5 @@ target/
 
 # I hate mac os due it
 .DS_Store
+
+.env
