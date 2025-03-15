@@ -1362,6 +1362,7 @@ dependencies = [
  "actix-web",
  "dotenvy",
  "sea-orm",
+ "serde_json",
  "tera",
 ]
 

@@ -3,8 +3,13 @@ name = "libflow"
 version = "0.1.0"
 edition = "2024"
 
+[workspace]
+members = [".", "entity", "migration"]
+
 [dependencies]
 dotenvy = "0.15.7"
-sea-orm = "1.1.7"
+sea-orm = { version =  "1.1.7", features = ["sqlx-postgres", "runtime-tokio-native-tls", "with_time", "macros"]}
 actix-web = "4"
 tera = "1.20.0"
+serde_json = "1.0.140"
+tokio = {version = "1.44.1", features = ["full"]}
